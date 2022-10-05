@@ -1,0 +1,32 @@
+#userNum {
+    display: none;
+}
+*{
+    margin: 0;
+}
+.main_container {
+    width: 550px;
+    height: 150px;
+
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    top: calc(50% - 150px)
+}
+.every_items {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+button {
+    background-color: rgb(255, 255, 255);
+    -webkit-transition-duration: 0.2s;
+    transition-duration: 0.2s;
+}
+
+button:hover {
+    background-color: #ff9393;
+    color: white;
+}
