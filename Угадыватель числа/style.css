@@ -30,3 +30,9 @@ button:hover {
     background-color: #ff9393;
     color: white;
 }
+#less {
+    width: 100%;
+}
+#more {
+    width: 100%;
+}

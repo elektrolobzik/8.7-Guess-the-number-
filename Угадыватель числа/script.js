@@ -29,7 +29,7 @@ more.addEventListener("click", function() {
 
 function success(){
     let massive = ['Я всегда угадываю<br>&#x1F60E;', 'Говорил же, легко!<br>&#x1F609;', 'Я так и думал!'];
-    h1.innerHTML = h1[Math.round(Math.random()*2)];
+    h1.innerHTML = massive[Math.round(Math.random()*2)];
 }
 
 right.addEventListener("click", function() { 
